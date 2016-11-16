@@ -11,19 +11,19 @@ Alpha-Beta Pruning : It is a search algorithm that seeks to decrease the number 
 Make sure GamePlayingAgent.py and input.txt are in the same directory before running the script file. When you run the GamePlayingAgent.py file, it reads input.txt and applies adversarial algorithms on the input to look for the best possible move to make. The script generates output.txt which holds the move decided by the algorithm and the next board state.
 
 # Input Format:
-$lt;N&gt;
-<br>$lt;MODE&gt;
-<br>$lt;YOUPLAY&gt;s
-<br>$lt;DEPTH&gt;
-<br>$lt;… CELL VALUES …&gt;
-<br>$lt;… BOARD STATE …&gt;
+&lt;N&gt;
+<br>&lt;MODE&gt;
+<br>&lt;YOUPLAY&gt;
+<br>&lt;DEPTH&gt;
+<br>&lt;… CELL VALUES …&gt;
+<br>&lt;… BOARD STATE …&gt;
 <br>where
-<br>$lt;N&gt; is the board width and height, e.g., N=5 for a 5x5 board. N is an positive integer.
-<br>$lt;MODE&gt; is “MINIMAX” or “ALPHABETA”.
-<br>$lt;YOUPLAY&gt; is either “X” or “O” and is the player which will play on this turn.
-<br>$lt;DEPTH&gt; is the max depth of the search. By convention, the root of the search tree is considered to be at depth 0.
-<br>$lt;… CELL VALUES …&gt; contains N lines with, in each line, N positive integer numbers each separated by a single space. These numbers represent the value of each location.
-<br>$lt;… BOARD STATE …&gt; contains N lines, each with N characters “X” or ”O” or “.” to represent the state of each cell as occupied by X, occupied by O, or free.
+<br>&lt;N&gt; is the board width and height, e.g., N=5 for a 5x5 board. N is an positive integer.
+<br>&lt;MODE&gt; is “MINIMAX” or “ALPHABETA”.
+<br>&lt;YOUPLAY&gt; is either “X” or “O” and is the player which will play on this turn.
+<br>&lt;DEPTH&gt; is the max depth of the search. By convention, the root of the search tree is considered to be at depth 0.
+<br>&lt;… CELL VALUES …&gt; contains N lines with, in each line, N positive integer numbers each separated by a single space. These numbers represent the value of each location.
+<br>&lt;… BOARD STATE …&gt; contains N lines, each with N characters “X” or ”O” or “.” to represent the state of each cell as occupied by X, occupied by O, or free.
 
 # Output Format:
 &lt;MOVE&gt; &lt;MOVETYPE&gt;<br>
